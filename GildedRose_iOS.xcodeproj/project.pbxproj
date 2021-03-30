@@ -13,6 +13,11 @@
 		A938062426113B80000F742D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A938062326113B80000F742D /* Preview Assets.xcassets */; };
 		A938062F26113B80000F742D /* GildedRose_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938062E26113B80000F742D /* GildedRose_iOSTests.swift */; };
 		A938063A26113B81000F742D /* GildedRose_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938063926113B81000F742D /* GildedRose_iOSUITests.swift */; };
+		A938064B26114958000F742D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938064A26114958000F742D /* Item.swift */; };
+		A9380654261164D2000F742D /* ItemViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9380653261164D2000F742D /* ItemViews.swift */; };
+		A938065C26118176000F742D /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938065B26118176000F742D /* Inventory.swift */; };
+		A93806642612D65B000F742D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93806632612D65A000F742D /* DetailView.swift */; };
+		A93806692613DE8A000F742D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A93806682613DE89000F742D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		A938063526113B80000F742D /* GildedRose_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GildedRose_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A938063926113B81000F742D /* GildedRose_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose_iOSUITests.swift; sourceTree = "<group>"; };
 		A938063B26113B81000F742D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A938064A26114958000F742D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A9380653261164D2000F742D /* ItemViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViews.swift; sourceTree = "<group>"; };
+		A938065B26118176000F742D /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		A93806632612D65A000F742D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A93806682613DE89000F742D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +105,14 @@
 		A938061B26113B7D000F742D /* GildedRose_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A93806682613DE89000F742D /* README.md */,
 				A938061C26113B7D000F742D /* GildedRose_iOSApp.swift */,
-				A938061E26113B7D000F742D /* ContentView.swift */,
+				A938064F26116498000F742D /* Views */,
 				A938062026113B80000F742D /* Assets.xcassets */,
 				A938062526113B80000F742D /* Info.plist */,
 				A938062226113B80000F742D /* Preview Content */,
+				A938064A26114958000F742D /* Item.swift */,
+				A938065B26118176000F742D /* Inventory.swift */,
 			);
 			path = GildedRose_iOS;
 			sourceTree = "<group>";
@@ -128,6 +141,16 @@
 				A938063B26113B81000F742D /* Info.plist */,
 			);
 			path = GildedRose_iOSUITests;
+			sourceTree = "<group>";
+		};
+		A938064F26116498000F742D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A938061E26113B7D000F742D /* ContentView.swift */,
+				A9380653261164D2000F742D /* ItemViews.swift */,
+				A93806632612D65A000F742D /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93806692613DE8A000F742D /* README.md in Resources */,
 				A938062426113B80000F742D /* Preview Assets.xcassets in Resources */,
 				A938062126113B80000F742D /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A938065C26118176000F742D /* Inventory.swift in Sources */,
+				A93806642612D65B000F742D /* DetailView.swift in Sources */,
+				A9380654261164D2000F742D /* ItemViews.swift in Sources */,
 				A938061F26113B7D000F742D /* ContentView.swift in Sources */,
+				A938064B26114958000F742D /* Item.swift in Sources */,
 				A938061D26113B7D000F742D /* GildedRose_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
